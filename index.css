@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+    margin: 3em 30%;
+}
+
+form {
+    background-color: white;
+    border-radius: 20px;
+    padding: 2em;
+}
+
+form h1 {
+    padding-bottom: 10px;
+}
+
+.fullname {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.name input {
+    border: none;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.last input {
+    border: none;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.email {
+    padding-top: 10px;
+
+}
+
+.email input {
+    width: 100%;
+    outline: none;
+    border: none;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.email input:hover {
+    cursor: pointer;
+}
+
+.query {
+    padding: .5em 0em;
+}
+
+.check {
+
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.check label {
+    display: flex;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+    width: 50%;
+    cursor: pointer;
+}
+
+.checking {
+    cursor: pointer;
+}
+
+.message p {
+    padding-bottom: 5px;
+}
+
+textarea {
+    outline: none;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.confirm {
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+button {
+    margin-top: 5px;
+    width: 100%;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+}
+
+.err {
+    background-color: black;
+}
+
+.err .name input {
+    border: 1px solid red;
+}
+
+.err2 .last input {
+    border: 1px solid red;
+}
+
+.err4 textarea {
+    border: 1px solid red;
+}
+
+.err1 {
+    color: red;
+    font-style: italic;
+    font-size: 10px;
+    padding-top: 10px;
+}
+
+.err2 {
+    color: red;
+    font-style: italic;
+    font-size: 10px;
+    padding-top: 10px;
+}
+
+.err3 {
+    color: red;
+    font-style: italic;
+    font-size: 10px;
+    padding-top: 10px;
+}
+
+.err5 {
+    color: red;
+    font-style: italic;
+    font-size: 10px;
+    padding-top: 10px;
+}
+
+@media only screen and (max-width:768px) {
+    
+body {
+    background-color: aquamarine;
+    margin: 3em 10%;
+}
+    .Contactus{
+        font-size: 20px;
+    }
+    .fullname {
+        display: block;
+        width: auto;
+        margin-right: 10px;
+    }
+    .check {
+
+        display: block;
+        width: 100%;
+    }
+    .check label {
+        display: flex;
+        width: 100%;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+    #first{
+        width: 100%;
+    }
+    #last{
+        width: 100%;
+    }
+}

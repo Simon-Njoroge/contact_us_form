@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contact form</title>
+
+\
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <form action="">
+    <h1 class="Contactus">Contact Us</h1>
+    <div class="fullname">
+      <div class="name">
+        <label for="first">First Name *</label>
+        <br>
+        <br>
+        <input type="text" id="first" placeholder="simon" required>
+        <p class="err1"></p>
+      </div>
+      <div class="last">
+        <label for="">Last Name *</label>
+        <br>
+        <br>
+        <input type="text" id="last" placeholder="njoroge" required>
+        <p class="err2"></p>
+      </div>
+    </div>
+    <div class="email">
+      <label for="email">Email Address *</label>
+      <br>
+      <br>
+      <input type="email" id="email" placeholder="email@gmail.com">
+      <P class="err3"></P>
+    </div>
+    <div class="type">
+      <div class="query">
+        Query Type *
+      </div>
+      <div class="check">
+        <label for="" id="checked"><input type="radio" name="checkany" class="checking">  General Enquiry</label>
+        <label for="" id="checked"><input type="radio" name="checkany" class="checking">  Support Request</label>
+      </div>
+      <p class="err4"></p>
+    </div>
+    <div class="message">
+      <p>Message *</p>
+      <textarea name="" id="" cols="30" class="message"></textarea>
+      <p class="err5"></p>
+    </div>
+    <div class="confirm">
+      <input type="checkbox" class="consent">
+      <p> I consent to being contacted by the team</p>
+      <p class="err6"></p>
+    </div>
+
+    <button class="submit">Submit</button>
+  </form>
+  
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by <a href="#">Simon Njoroge</a>.
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
